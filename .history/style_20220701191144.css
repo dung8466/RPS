@@ -1,0 +1,16 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+.flex-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header{
+    font-size: 4em;
+    font-weight: bold;
+    
+}
