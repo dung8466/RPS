@@ -4,26 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fun Game</title>
+    <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="@sweetalert2/theme-borderless/borderless.css">
 </head>
 <body>
-    <h1 class="header">
-        Rock, Paper, Scissors
-    </h1>
-    <div class="results flex-box">
-        <div class="player-result">
-            You: <span class="player-score" data-player-score>0</span>
+    <header id="header">Rock, Paper, Scissor</header>
+    <span id="displayChoice" class="flex">
+        <div class="player">
+            You: <span id="playerScore">0</span>
         </div>
-        <div class="computer-result" data-final-column>
-            Machine: <span class="computer-score" data-computer-score>0</span>
+        <div class="computer">
+            Computer: <span id="computerScore">0</span>
         </div>
+    </span>
+    <div id="score" class="flex">
+        <p id="playerSelection"></p>
+        <p id="computerSelection"></p>
     </div>
-    <div class="selections">
-        <button class="rock">🗿</button>
-        <button class="paper">📜</button>
-        <button class="scissors">✂</button>
+    <div id="btnChoice">
+        <button id="btnRock">✊</button>
+        <button id="btnPaper">✋</button>
+        <button id="btnScissors">✌</button>
     </div>
+    <!-- using sweet alert 2 -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script  src="script.js"></script>
 </body>
 </html>
