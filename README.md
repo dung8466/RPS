@@ -23,9 +23,10 @@ The project uses:
 
 ## Usage
 
-You can preview the website at [RPS](https://dung8466.github.io/RPS/)
-Download using: 
-`git clone https://github.com/dung8466/RPS.git`
+You can preview the website at [RPS](https://dung8466.github.io/RPS/)  
+
+Download using:  
+`git clone https://github.com/dung8466/RPS.git`  
 or download zip file [Zip](https://github.com/dung8466/RPS/archive/refs/heads/main.zip)
 
 
